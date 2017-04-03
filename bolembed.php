@@ -6,7 +6,7 @@
 
 /*
 Plugin Name: Bol Embed
-Plugin URI: https://example.com/
+Plugin URI: https://embedbol.com/
 Description: A plugin to embed products from bol.com.
 Version: 0.1
 Author: SWIS
@@ -16,7 +16,7 @@ Text Domain: bolembed
 */
 
 add_action( 'init', function() {
-  wp_oembed_add_provider( '#^https?://www.bol.com/[a-z]{2}/p/[^/]+/(\d+)/?(\?[^?/]+)?$#', 'https://example.com/oembed', true );
+  wp_oembed_add_provider( '#^https?://www.bol.com/[a-z]{2}/p/[^/]+/(\d+)/?(\?[^?/]+)?$#', 'https://embedbol.com/oembed', true );
 });
 
 register_activation_hook( __FILE__, function() {
