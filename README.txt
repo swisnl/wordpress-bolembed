@@ -1,4 +1,4 @@
-=== Bol Embed ===
+=== embedbol.com ===
 Contributors:
 Tags:
 License: GPLv2 or later
@@ -7,15 +7,15 @@ Requires at least: 3.5
 Tested up to: 3.5
 Stable tag: 0.1
 
-TODO
+Registers embedbol.com as an oEmbed provider allowing for easy embedding of products from bol.com.
 
 == Description ==
 
-TODO
+Registers embedbol.com as an oEmbed provider allowing for easy embedding of products from bol.com.
 
 == Installation ==
 
-Upload the Bol Embed plugin to your wordpress site, and activate the plugin.
+Upload the embedbol.com plugin to your wordpress site, and activate the plugin.
 
 == Changelog ==
 
