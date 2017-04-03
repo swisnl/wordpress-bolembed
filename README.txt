@@ -1,4 +1,4 @@
-=== embedbol.com ===
+=== embedbolcom ===
 Contributors:
 Tags:
 License: GPLv2 or later
@@ -15,7 +15,7 @@ Registers embedbol.com as an oEmbed provider allowing for easy embedding of prod
 
 == Installation ==
 
-Upload the embedbol.com plugin to your wordpress site, and activate the plugin.
+Upload the embedbolcom plugin to your wordpress site, and activate the plugin.
 
 == Changelog ==
 
