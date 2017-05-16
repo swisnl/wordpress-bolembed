@@ -18,15 +18,3 @@ Text Domain: embedbolcom
 add_action( 'init', function() {
   wp_oembed_add_provider( '#^https?://www.bol.com/[a-z]{2}/p/[^/]+/(\d+)/?(\?[^?/]+)?$#', 'https://embedbol.com/oembed', true );
 });
-
-register_activation_hook( __FILE__, function() {
-  global $wpdb;
-
-  $wpdb->query("DELETE FROM {$wpdb->postmeta} WHERE meta_key LIKE '_oembed_%' AND meta_value = '{{unknown}}'");
-});
-
-register_deactivation_hook( __FILE__, function() {
-  global $wpdb;
-
-  $wpdb->query("DELETE FROM {$wpdb->postmeta} WHERE meta_key LIKE '_oembed_%' AND meta_value LIKE '%bolembed%'");
-});
